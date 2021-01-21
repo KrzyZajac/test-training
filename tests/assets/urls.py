@@ -1,1 +1,1 @@
-MAIN_URL = 'https://frontend-learning.000webhostapp.com/'
+MAIN_URL = 'https://frontend-learning.000webhostapp.com/index.html'TEAM_COMPARISON_PAGE_URL = 'https://frontend-learning.000webhostapp.com/team_comparison_page/team_comparison_page.html'
