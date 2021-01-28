@@ -1,5 +1,4 @@
 from locators import main_page_locators as locators
-from assets.urls import MAIN_URL
 from selenium.webdriver.common.by import By
 
 
@@ -7,9 +6,6 @@ class MainPageObject(object):
 
     def __init__(self, driver, *args, **kw):
         self.driver = driver
-
-    def open_page(self):
-        self.driver.get(MAIN_URL)
 
     def main_page_title(self):
         return self.driver.find_element(By.CLASS_NAME, locators.MAIN_PAGE_TITLE)
